@@ -1,15 +1,14 @@
 [tool.poetry]
-name = "nextjs-crewai-tutorial"
+name = "nextjs-crewai"
 version = "0.1.0"
-description = "Automate YouTube tasks with CrewAI"
-authors = ["bhancock_ai <brandon@brandonhancock.io>", "João Moura <joaomdmoura@mgail.com>"]
+description = "Automate test creation with CrewAI"
+authors = ["Iakov Volf <jakoff@gmail.com>", "bhancock_ai <brandon@brandonhancock.io>", "João Moura <joaomdmoura@mgail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10.0,<3.12"
-crewai = {extras = ["tools"], version = "^0.22.4"}
+python = ">=3.10.0,<=3.12"
+crewai = {extras = ["tools"], version = "^0.28.1"}
 pydantic = "^2.6.3"
 load-dotenv = "^0.1.0"
-crewai-tools = "^0.0.15"
 flask = "^3.0.2"
 flask-cors = "^4.0.0"
 

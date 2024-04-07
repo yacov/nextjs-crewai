@@ -38,7 +38,7 @@ class CompanyResearchTasks():
             description=dedent(f"""Research the position {positions} for the {company} company. 
                 For each position, 
                                
-                               nd the URLs for 3 recent blog articles and the URLs and titles for
+                               find the URLs for 3 recent blog articles and the URLs and titles for
                 3 recent YouTube interviews for the person in each position.
                 Return this collected information in a JSON object.
                                
